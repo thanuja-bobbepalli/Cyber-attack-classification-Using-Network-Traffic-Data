@@ -2,7 +2,7 @@
 
 
 ## Project Overview  
-This project focuses on **detecting and classifying cyberattacks** using **network traffic data**. We utilize **ML and DL models** to analyze network packets and identify malicious activity. The dataset used is **NSL-KDD**, a widely used benchmark for intrusion detection systems (IDS).  
+This project focuses on **detecting and classifying cyberattacks** using **network traffic data**. We utilize **ML  models** to analyze network packets and identify malicious activity. The dataset used is **NSL-KDD**, a widely used benchmark for intrusion detection systems (IDS).  
 
 ##  Dataset: NSL-KDD  
 We use the **NSL-KDD dataset**, which consists of normal and attack traffic data with 41 extracted features. The dataset is preprocessed and converted into a structured format for training and evaluation. 
@@ -13,7 +13,7 @@ We use the **NSL-KDD dataset**, which consists of normal and attack traffic data
 -  **Classes:** Normal Traffic (`0`), Attack Traffic (`1`)  
 
 ##  Model Implementations  
-The project compares various **Machine Learning (ML) and Deep Learning (DL) models** to evaluate their performance.  
+The project compares various **Machine Learning (ML) models** to evaluate their performance.  
 
 ###  **Implemented Models**  
 ### ** Machine Learning Models**  
@@ -22,7 +22,7 @@ The project compares various **Machine Learning (ML) and Deep Learning (DL) mode
 **Random Forest Classifier**  
 **K-Nearest Neighbors (KNN)**  
 **Support Vector Machine (SVM)**  
-**Ensemble Voting Classifier** (Soft & Hard Voting)  
+ 
 
 ## Evaluation Metrics  
 To assess model performance, we use:  
@@ -32,4 +32,11 @@ To assess model performance, we use:
 **F1-Score**  
 **Confusion Matrix**  
 **ROC-AUC Curve**  
+
+## Conclusion 
+In this project, I conducted a comparative study using six different machine learning models for cyberattack classification on network traffic data. By leveraging the NSL-KDD dataset, I evaluated model performance based on key metrics such as accuracy, precision, recall, F1-score, and ROC curves.
+
+My analysis provided insights into the strengths and weaknesses of different ML approaches in detecting cyber threats. While traditional models like Logistic Regression and Decision Trees offered interpretability, ensemble methods such as Random Forest and Voting Classifier demonstrated improved classification performance. The results showed that machine learning can effectively identify cyberattacks, but challenges like imbalanced data and false positives remain.
+
+Future improvements could involve integrating deep learning models for sequential pattern analysis, feature selection techniques for improved generalization, and real-time intrusion detection adaptations.
 
